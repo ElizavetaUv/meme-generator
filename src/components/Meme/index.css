@@ -1,0 +1,73 @@
+main .form {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+}
+
+main input {
+  height: 10vh;
+  border-radius: 20px;
+  font-size: 4vh;
+  color: var(--dark);
+  border-color: var(--light-gray);
+  margin-bottom: 2%;
+  text-indent: 5px;
+}
+
+main input[name="topText"] {
+  flex: 1 1 49%;
+}
+
+main input[name="bottomText"] {
+  flex: 1 1 49%;
+}
+
+main button {
+  flex: 2 2 49%;
+  height: 10vh;
+  margin-bottom: 3%;
+  border-radius: 20px;
+  font-size: 4vh;
+  background: var(--main-color);
+  border-color: var(--main-color);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}

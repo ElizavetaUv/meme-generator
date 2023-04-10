@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  padding: 20px;
+  background: var(--main-color);
+}
+
+.navbar--logo {
+  height: 6vh;
+}
