@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.efb20515.css",
-    "main.js": "/react-gh-pages/static/js/main.c27144bc.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.efb20515.css.map": "/react-gh-pages/static/css/main.efb20515.css.map",
-    "main.c27144bc.js.map": "/react-gh-pages/static/js/main.c27144bc.js.map"
+    "main.css": "/meme-generator/static/css/main.efb20515.css",
+    "main.js": "/meme-generator/static/js/main.c27144bc.js",
+    "index.html": "/meme-generator/index.html",
+    "main.efb20515.css.map": "/meme-generator/static/css/main.efb20515.css.map",
+    "main.c27144bc.js.map": "/meme-generator/static/js/main.c27144bc.js.map"
   },
   "entrypoints": [
     "static/css/main.efb20515.css",
